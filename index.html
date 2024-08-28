@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نادي البرمجة والذكاء الاصطناعي - جامعة الطائف</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            direction: rtl; /* لضبط اتجاه النصوص من اليمين لليسار */
+            background: linear-gradient(to right, #0056b3, #00c6ff);
+        }
+        header {
+            background-color: rgba(0, 86, 179, 0.9);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            max-height: 60px;
+            margin-left: 10px;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .event {
+            border-bottom: 1px solid #ccc;
+            padding: 1rem 0;
+            margin-bottom: 1.5rem;
+        }
+        .event h3 {
+            color: #003366;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .event p {
+            margin: 0.3rem 0;
+        }
+        .contact {
+            background-color: #f4f4f4;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: rgba(0, 86, 179, 0.9);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+        }
+        footer p {
+            margin: 0;
+        }
+        .chat-widget {
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .chat-widget iframe {
+            width: 350px;
+            height: 500px;
+            border: none;
+        }
+        .event:hover {
+            background-color: #e0f7fa;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- إضافة الشعار -->
+        <img src="PAIC_Club_Ramadan24_Logo_Theme_P club 1.png" alt="شعار النادي">
+        <h1>نادي البرمجة والذكاء الاصطناعي - جامعة الطائف</h1>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>عن النادي</h2>
+            <p>مرحباً بكم في نادي البرمجة والذكاء الاصطناعي بجامعة الطائف! نحن نهدف إلى تعزيز مهارات البرمجة والذكاء الاصطناعي من خلال ورش عمل، ندوات، ومشاريع مشتركة. انضم إلينا لتطوير مهاراتك والانخراط في عالم التقنية الحديثة!</p>
+        </section>
+        
+        <section>
+            <h2>الأحداث القادمة</h2>
+            <div class="event">
+                <h3>ورشة عمل حول الذكاء الاصطناعي</h3>
+                <p>التاريخ: 10 سبتمبر 2024</p>
+                <p>الوقت: 10:00 صباحاً - 2:00 مساءً</p>
+                <p>الوصف: ورشة عمل تفاعلية حول أحدث تقنيات الذكاء الاصطناعي.</p>
+            </div>
+            <div class="event">
+                <h3>ندوة حول البرمجة المتقدمة</h3>
+                <p>التاريخ: 25 سبتمبر 2024</p>
+                <p>الوقت: 3:00 مساءً - 6:00 مساءً</p>
+                <p>الوصف: ندوة متقدمة تتناول تقنيات البرمجة الحديثة وتطبيقاتها.</p>
+            </div>
+            <!-- أضف المزيد من الأحداث حسب الحاجة -->
+        </section>
+        
+        <section class="contact">
+            <h2>تواصل معنا</h2>
+            <p>البريد الإلكتروني: PAIClub@taif.edu.sa</p>
+            <p>رقم الهاتف: +966 123 456 789</p>
+            <p>العنوان: جامعة الطائف، الطائف، المملكة العربية السعودية</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 نادي البرمجة والذكاء الاصطناعي بجامعة الطائف. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <!-- بوت الدردشة -->
+    <div class="chat-widget">
+        <script type="text/javascript">
+          (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              if (!document.getElementById('root')) {
+                var root = d.createElement('div');
+                root.id = 'root';
+                d.body.appendChild(root);
+              }
+              if (window.myChatWidget && typeof window.myChatWidget.load === 'function') {
+                window.myChatWidget.load({
+                  assistantId: '95976368-39f5-49f7-be1f-3687d244c96f',
+                  apiKey: '3b92b2d9-035c-4462-97f9-b78818db49f4',
+                });
+              }
+            };
+            v.src = "https://agentivehub.com/production.bundle.min.js";
+            v.type = "text/javascript";
+            s.parentNode.insertBefore(v, s);
+          })(document, 'script');
+        </script>
+    </div>
+</body>
+</html>
